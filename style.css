@@ -1,0 +1,52 @@
+body {
+    margin:0;
+    font-family:Arial;
+    background:#eef7fb;
+}
+
+nav {
+    background:#023e8a;
+    padding:15px;
+    text-align:center;
+}
+
+nav a {
+    color:white;
+    margin:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.container {
+    padding:30px;
+}
+
+h1, h2 {
+    color:#023e8a;
+}
+
+/* 📸 GALERIE */
+.gallery {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+/* 📦 CADRE POZE */
+.img-box {
+    height:220px;
+    border:2px dashed #0077b6;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:12px;
+    color:#0077b6;
+    font-weight:bold;
+    background:#f5fbff;
+    transition:0.3s;
+}
+
+.img-box:hover {
+    background:#dff2ff;
+    transform:scale(1.03);
+}
